@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -32,4 +32,37 @@ html {
     color: #e5e7eb;
     display: flex;
     gap: 20px;
+}
+.hero {
+    display: flex;
+    padding: 80px 240px 140px 240px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero .left {
+    width: 540px;
+}
+.hero .left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin:0;
+    color: #f9faf8;
+}
+.hero .left h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 400;
+}
+.hero .left button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+}
+.hero .right img {
+    width: 600px;
+    height: 300px;
 }
